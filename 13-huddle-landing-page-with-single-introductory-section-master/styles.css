@@ -1,0 +1,103 @@
+:root{
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+}
+html{
+
+    height: 100%;
+    margin: 0;
+}
+
+body{  
+    background-image:url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: var(--Violet);
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+.logo{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.logo img{          /*Reducing logo*/
+    height:15%;   
+    width:15%;
+}
+
+.imagen{                
+    padding-left: 50px;
+    padding-top: 65px;
+    
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+}
+
+.titulo{
+    color: white;
+    font-size: 2.5rem;
+    margin-top: -5rem;
+    line-height: 4rem;
+}
+
+.texto{
+    margin-left: 3rem;
+}
+
+.parrafo {
+    color: white;
+    margin-top: -1rem;
+    margin-bottom: 4rem;
+}
+
+.boton {
+    background-color: var(--Soft-Magenta);
+    color: whitesmoke;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5rem;
+    text-align: center;
+    border: none;
+}
+
+.fondo{
+    align-items: right;
+}
+
+.contenedor2{   
+    color:white;
+    width: 25%;
+    margin-left: 70rem;
+     
+}
+
+.iconos{
+    display: flex;
+}
+
+.icono:hover{
+    cursor: pointer;
+    color: var(--Soft-Magenta);
+}
+
+.circulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; /* ajusta según sea necesario */
+    height: 50px; /* asegúrate de que la altura sea igual al ancho */
+    border: 2px solid white; /* color de la línea del círculo y grosor */
+    border-radius: 50%; /* esto hace que el elemento sea un círculo */   
+    margin-right: 20px;
+}
+
+.circulo:hover{
+    cursor: pointer;
+    border: 2px solid var(--Soft-Magenta);
+}
